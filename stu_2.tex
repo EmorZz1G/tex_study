@@ -1,0 +1,64 @@
+\documentclass[10pt,a4papper,utf8]{article}
+\usepackage{amsmath,amsthm,amssymb,graphicx}
+\usepackage{ctex}
+\usepackage{cite}
+\title{My Report}
+\author{Emor \and J. do \and od}
+\date{\today---Lecture 2}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Life ad Heart}
+This is the story of \ldots
+\subsection{hehe 1}
+this is sub1
+\subsubsection*{heeh 2}
+this is sub sub 2
+\subsubsection{hehe2}
+this is numerical ``hehe''E-m-o-r
+\newline
+\begin{equation}
+    \mathbf{V}_{CKM} = \left(
+    \begin{array}{ccc}
+            V_{ud} & V_{us} & V_{ub} \\V_{cd} & V_{cs} & V_{cb}\\
+            V_{td} & V_{ts} & V_{tb}\end{array}\right)
+\end{equation}
+\begin{equation}\label{iqoo}
+    det \,\mathbf{I} = \left| \begin{array}{ccc}
+        1 & 0 & 0 \\0&1&0\\0&0&1
+    \end{array}
+    \right\vert
+\end{equation}
+\begin{equation}
+    \left<
+    \begin{array}{c}
+        x+y=3 \\
+        x^2+y=5
+    \end{array}\right\}\Leftrightarrow <x^*=2,~y=1>
+\end{equation}
+\newpage
+\begin{table}
+    \centering
+    \begin{tabular}{c|c}
+        \hline
+        Natural & $\mathbb{N}$ \\
+        \hline
+        he                     \\
+        \hline
+        cao     & $\mathbb{C}$ \\
+        \hline
+    \end{tabular}
+    \caption{\label{labelfk}A table!}
+\end{table}
+this is \ref{labelfk} and \eqref{iqoo}
+
+\heiti{牛逼}\cite{Ong2015}\cite{Hasselt2015}
+\bibliography{ref/bib1}{}
+\bibliographystyle{plain}
+
+
+\end{document}

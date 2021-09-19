@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{Ong2015}
+Hao~Yi Ong, Kevin Chavez, and Augustus Hong.
+\newblock Distributed deep q-learning.
+\newblock August 2015.
+
+\bibitem{Hasselt2015}
+Hado van Hasselt, Arthur Guez, and David Silver.
+\newblock Deep reinforcement learning with double q-learning.
+\newblock September 2015.
+
+\end{thebibliography}
