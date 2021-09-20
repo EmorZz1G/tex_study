@@ -1,64 +1,28 @@
-\documentclass[10pt,a4papper,utf8]{article}
-\usepackage{amsmath,amsthm,amssymb,graphicx}
-\usepackage{ctex}
-\usepackage{cite}
-\title{My Report}
-\author{Emor \and J. do \and od}
-\date{\today---Lecture 2}
-
+\documentclass{ctexart}
 \begin{document}
-\maketitle
-\newpage
-\tableofcontents
-\newpage
-
-\section{Life ad Heart}
-This is the story of \ldots
-\subsection{hehe 1}
-this is sub1
-\subsubsection*{heeh 2}
-this is sub sub 2
-\subsubsection{hehe2}
-this is numerical ``hehe''E-m-o-r
-\newline
-\begin{equation}
-    \mathbf{V}_{CKM} = \left(
-    \begin{array}{ccc}
-            V_{ud} & V_{us} & V_{ub} \\V_{cd} & V_{cs} & V_{cb}\\
-            V_{td} & V_{ts} & V_{tb}\end{array}\right)
-\end{equation}
-\begin{equation}\label{iqoo}
-    det \,\mathbf{I} = \left| \begin{array}{ccc}
-        1 & 0 & 0 \\0&1&0\\0&0&1
-    \end{array}
-    \right\vert
-\end{equation}
-\begin{equation}
-    \left<
-    \begin{array}{c}
-        x+y=3 \\
-        x^2+y=5
-    \end{array}\right\}\Leftrightarrow <x^*=2,~y=1>
-\end{equation}
-\newpage
-\begin{table}
-    \centering
-    \begin{tabular}{c|c}
+\ctexset{
+    section/number=\chinese{section}
+}
+\section{问题重述}
+\subsection{好家伙}\label{sec1}
+hehe
+\begin{center}
+    \begin{tabular}{|l|r|}
         \hline
-        Natural & $\mathbb{N}$ \\
-        \hline
-        he                     \\
-        \hline
-        cao     & $\mathbb{C}$ \\
+        Mercury & 58100000                   \\
+        Venus   & 108300000                  \\
+        Earth   & 150000000                  \\
+        Mars    & 228250000                  \\
+        Jupiter & 779500000                  \\
+        Saturn  & 1429000000                 \\
+        Uranus  & 2439000000                 \\
+        Neptune & 4504500000                 \\
+        Pluto   & 5903500000                 \\
         \hline
     \end{tabular}
-    \caption{\label{labelfk}A table!}
-\end{table}
-this is \ref{labelfk} and \eqref{iqoo}
+\end{center}
 
-\heiti{牛逼}\cite{Ong2015}\cite{Hasselt2015}
-\bibliography{ref/bib1}{}
-\bibliographystyle{plain}
-
-
+nihak
+\section{B}
+你好 {\heiti\zihao{4} 你好}{\fangsong 你好}{\songti 你好}
 \end{document}
